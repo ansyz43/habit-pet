@@ -1,0 +1,122 @@
+{
+  "reference": "../reference/reference-sheet-v1.png",
+  "keyposes": "../keyposes/{set}-idle-v1.png",
+  "globalPrompt": "Create the requested animation storyboard by editing the approved key pose. Preserve stage identity, silhouette, mint/cream/pink palette, glossy black eyes, heart belly patch, front view, scale and baseline. Crisp tamagotchi pixel art, square clusters, transparent background, no text, borders, guides, scenery or floor shadow. Change only the eyes, mouth, paws, ears, wings or tiny prop required by the sequence.",
+  "animations": {
+    "egg/idle": {
+      "frames": 2,
+      "grid": [2, 1],
+      "sequence": ["tilt slightly left", "tilt slightly right; seamless return"]
+    },
+    "egg/hatch": {
+      "frames": 6,
+      "grid": [3, 2],
+      "sequence": ["tiny crack", "crack spreads", "top shell separates", "top lifts with mint light", "baby emerges", "baby sits between two shell pieces"]
+    },
+    "baby/idle": {
+      "frames": 4,
+      "grid": [2, 2],
+      "sequence": ["eyes open", "half blink", "eyes closed", "eyes open; match frame 1"]
+    },
+    "baby/happy": {
+      "frames": 6,
+      "grid": [3, 2],
+      "sequence": ["holds cream star biscuit", "raises biscuit", "bites with closed happy eyes", "chews smaller biscuit", "joyful smile and raised paws", "settles happy"]
+    },
+    "baby/sad": {
+      "frames": 4,
+      "grid": [2, 2],
+      "sequence": ["lowered eyes and frown", "watery eyes", "one tear", "returns to frame 1"]
+    },
+    "baby/sleep": {
+      "frames": 2,
+      "grid": [2, 1],
+      "sequence": ["eyes closed and paws tucked", "same pose with slightly puffed cheeks"]
+    },
+    "teen/idle": {
+      "frames": 4,
+      "grid": [2, 2],
+      "sequence": ["eyes open", "half blink", "eyes closed", "eyes open; match frame 1"]
+    },
+    "teen/happy": {
+      "frames": 6,
+      "grid": [3, 2],
+      "sequence": ["holds cream star biscuit", "raises biscuit", "bites with closed happy eyes", "chews smaller biscuit", "joyful smile and raised paws", "settles happy"]
+    },
+    "teen/sad": {
+      "frames": 4,
+      "grid": [2, 2],
+      "sequence": ["ears lower and frown", "watery eyes", "one tear and drooped ears", "returns to frame 1"]
+    },
+    "teen/sleep": {
+      "frames": 2,
+      "grid": [2, 1],
+      "sequence": ["eyes closed and ears relaxed", "same pose with slightly puffed cheeks"]
+    },
+    "adult/idle": {
+      "frames": 4,
+      "grid": [2, 2],
+      "sequence": ["eyes open", "half blink", "eyes closed", "eyes open; match frame 1"]
+    },
+    "adult/happy": {
+      "frames": 6,
+      "grid": [3, 2],
+      "sequence": ["holds cream star biscuit", "raises biscuit", "bites with closed happy eyes", "chews smaller biscuit", "joyful smile and raised paws", "settles happy"]
+    },
+    "adult/sad": {
+      "frames": 4,
+      "grid": [2, 2],
+      "sequence": ["ears lower and frown", "watery eyes", "one tear", "returns to frame 1"]
+    },
+    "adult/sleep": {
+      "frames": 2,
+      "grid": [2, 1],
+      "sequence": ["eyes closed and ears relaxed", "same pose with slightly puffed cheeks"]
+    },
+    "legend/idle": {
+      "frames": 4,
+      "grid": [2, 2],
+      "sequence": ["eyes open", "half blink", "eyes closed", "eyes open; match frame 1"]
+    },
+    "legend/happy": {
+      "frames": 6,
+      "grid": [3, 2],
+      "sequence": ["holds cream star biscuit", "raises biscuit", "bites with closed happy eyes", "chews smaller biscuit", "joyful smile, raised paws and wings", "settles happy"]
+    },
+    "legend/sad": {
+      "frames": 4,
+      "grid": [2, 2],
+      "sequence": ["ears and wings lower", "watery eyes", "one tear and wings lower", "returns to frame 1"]
+    },
+    "legend/sleep": {
+      "frames": 2,
+      "grid": [2, 1],
+      "sequence": ["eyes closed and wings relaxed", "same pose with slightly puffed cheeks"]
+    },
+    "death/grave": {
+      "frames": 1,
+      "grid": [1, 1],
+      "sequence": ["rounded dark gravestone with cream heart emblem"]
+    },
+    "death/ghost": {
+      "frames": 4,
+      "grid": [2, 2],
+      "sequence": ["ghost low above grave", "ghost higher", "ghost highest with eyes closed", "ghost low again"]
+    },
+    "fx/evolve": {
+      "frames": 6,
+      "grid": [3, 2],
+      "sequence": ["tiny sparkle", "sparkle ring", "expanded ring", "pixel flash", "mint cloud-energy outline", "fading sparkles"]
+    },
+    "fx/hearts": {
+      "frames": 4,
+      "grid": [2, 2],
+      "sequence": ["two small hearts", "three rising hearts", "spread hearts and cream sparkle", "small fading hearts"]
+    },
+    "fx/zzz": {
+      "frames": 3,
+      "grid": [3, 1],
+      "sequence": ["dim low Z symbols", "higher brighter Z symbols", "highest fading Z symbols"]
+    }
+  }
+}

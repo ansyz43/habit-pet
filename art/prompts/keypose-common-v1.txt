@@ -1,0 +1,8 @@
+Use case: precise-object-edit
+Input image: assets/pet/reference/reference-sheet-v1.png — approved reference sheet; use it as the strict identity, proportion, palette, and pixel-style reference.
+Asset type: 1024x1024 source for one 128x128 game sprite key pose.
+Primary request: isolate and refine the approved {stage} idle key pose without redesigning it.
+Style: authentic crisp pixel art with square pixel clusters, dark navy one-pixel outline at final sprite scale, no anti-aliasing, no gradients, no painterly texture.
+Composition: exactly one subject, front-facing, centered at x=50% with its lowest opaque pixel at y=93.75% so it will align to y=120 after reduction to 128x128. Leave transparent padding around it. Neutral idle pose suitable as animation frame 1.
+Invariants: preserve the approved mint, cream and pink palette; preserve exact identity and silhouette from the matching stage in the reference; no floor shadow, no scenery, no palette swatches, no text, no border, no watermark. Genuinely transparent background.
+Stage details: {use the corresponding stage file}

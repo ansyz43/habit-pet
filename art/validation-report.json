@@ -1,0 +1,167 @@
+{
+  "animations": {
+    "egg/idle": {
+      "colors": 13,
+      "size": [
+        256,
+        128
+      ]
+    },
+    "egg/hatch": {
+      "colors": 14,
+      "size": [
+        768,
+        128
+      ]
+    },
+    "baby/idle": {
+      "colors": 14,
+      "size": [
+        512,
+        128
+      ]
+    },
+    "baby/happy": {
+      "colors": 16,
+      "size": [
+        768,
+        128
+      ]
+    },
+    "baby/sad": {
+      "colors": 14,
+      "size": [
+        512,
+        128
+      ]
+    },
+    "baby/sleep": {
+      "colors": 14,
+      "size": [
+        256,
+        128
+      ]
+    },
+    "teen/idle": {
+      "colors": 14,
+      "size": [
+        512,
+        128
+      ]
+    },
+    "teen/happy": {
+      "colors": 16,
+      "size": [
+        768,
+        128
+      ]
+    },
+    "teen/sad": {
+      "colors": 14,
+      "size": [
+        512,
+        128
+      ]
+    },
+    "teen/sleep": {
+      "colors": 14,
+      "size": [
+        256,
+        128
+      ]
+    },
+    "adult/idle": {
+      "colors": 14,
+      "size": [
+        512,
+        128
+      ]
+    },
+    "adult/happy": {
+      "colors": 16,
+      "size": [
+        768,
+        128
+      ]
+    },
+    "adult/sad": {
+      "colors": 15,
+      "size": [
+        512,
+        128
+      ]
+    },
+    "adult/sleep": {
+      "colors": 14,
+      "size": [
+        256,
+        128
+      ]
+    },
+    "legend/idle": {
+      "colors": 16,
+      "size": [
+        512,
+        128
+      ]
+    },
+    "legend/happy": {
+      "colors": 16,
+      "size": [
+        768,
+        128
+      ]
+    },
+    "legend/sad": {
+      "colors": 16,
+      "size": [
+        512,
+        128
+      ]
+    },
+    "legend/sleep": {
+      "colors": 16,
+      "size": [
+        256,
+        128
+      ]
+    },
+    "death/grave": {
+      "colors": 10,
+      "size": [
+        128,
+        128
+      ]
+    },
+    "death/ghost": {
+      "colors": 14,
+      "size": [
+        512,
+        128
+      ]
+    },
+    "fx/evolve": {
+      "colors": 15,
+      "size": [
+        768,
+        128
+      ]
+    },
+    "fx/hearts": {
+      "colors": 9,
+      "size": [
+        512,
+        128
+      ]
+    },
+    "fx/zzz": {
+      "colors": 10,
+      "size": [
+        384,
+        128
+      ]
+    }
+  },
+  "totalFrames": 90,
+  "paletteSize": 16
+}

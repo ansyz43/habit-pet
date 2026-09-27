@@ -1,0 +1,177 @@
+{
+  "frameSize": 128,
+  "baselineY": 120,
+  "palette": [
+    "#0e1626",
+    "#476363",
+    "#8dc79f",
+    "#b7e4b8",
+    "#e4f5d7",
+    "#fcf4dd",
+    "#fae4bb",
+    "#fcb9be",
+    "#f9a0a8",
+    "#fce99a",
+    "#779f86",
+    "#b7c6bd",
+    "#eaf5ee",
+    "#fcf7ec",
+    "#fce5c8",
+    "#fcdb78"
+  ],
+  "totalFrames": 90,
+  "sets": {
+    "egg": {
+      "idle": {
+        "file": "egg/idle.png",
+        "frames": 2,
+        "fps": 4,
+        "loop": true
+      },
+      "hatch": {
+        "file": "egg/hatch.png",
+        "frames": 6,
+        "fps": 8,
+        "loop": false
+      }
+    },
+    "baby": {
+      "idle": {
+        "file": "baby/idle.png",
+        "frames": 4,
+        "fps": 6,
+        "loop": true
+      },
+      "happy": {
+        "file": "baby/happy.png",
+        "frames": 6,
+        "fps": 10,
+        "loop": false
+      },
+      "sad": {
+        "file": "baby/sad.png",
+        "frames": 4,
+        "fps": 4,
+        "loop": true
+      },
+      "sleep": {
+        "file": "baby/sleep.png",
+        "frames": 2,
+        "fps": 2,
+        "loop": true
+      }
+    },
+    "teen": {
+      "idle": {
+        "file": "teen/idle.png",
+        "frames": 4,
+        "fps": 6,
+        "loop": true
+      },
+      "happy": {
+        "file": "teen/happy.png",
+        "frames": 6,
+        "fps": 10,
+        "loop": false
+      },
+      "sad": {
+        "file": "teen/sad.png",
+        "frames": 4,
+        "fps": 4,
+        "loop": true
+      },
+      "sleep": {
+        "file": "teen/sleep.png",
+        "frames": 2,
+        "fps": 2,
+        "loop": true
+      }
+    },
+    "adult": {
+      "idle": {
+        "file": "adult/idle.png",
+        "frames": 4,
+        "fps": 6,
+        "loop": true
+      },
+      "happy": {
+        "file": "adult/happy.png",
+        "frames": 6,
+        "fps": 10,
+        "loop": false
+      },
+      "sad": {
+        "file": "adult/sad.png",
+        "frames": 4,
+        "fps": 4,
+        "loop": true
+      },
+      "sleep": {
+        "file": "adult/sleep.png",
+        "frames": 2,
+        "fps": 2,
+        "loop": true
+      }
+    },
+    "legend": {
+      "idle": {
+        "file": "legend/idle.png",
+        "frames": 4,
+        "fps": 6,
+        "loop": true
+      },
+      "happy": {
+        "file": "legend/happy.png",
+        "frames": 6,
+        "fps": 10,
+        "loop": false
+      },
+      "sad": {
+        "file": "legend/sad.png",
+        "frames": 4,
+        "fps": 4,
+        "loop": true
+      },
+      "sleep": {
+        "file": "legend/sleep.png",
+        "frames": 2,
+        "fps": 2,
+        "loop": true
+      }
+    },
+    "death": {
+      "grave": {
+        "file": "death/grave.png",
+        "frames": 1,
+        "fps": 0,
+        "loop": false
+      },
+      "ghost": {
+        "file": "death/ghost.png",
+        "frames": 4,
+        "fps": 6,
+        "loop": true
+      }
+    },
+    "fx": {
+      "evolve": {
+        "file": "fx/evolve.png",
+        "frames": 6,
+        "fps": 12,
+        "loop": false
+      },
+      "hearts": {
+        "file": "fx/hearts.png",
+        "frames": 4,
+        "fps": 10,
+        "loop": false
+      },
+      "zzz": {
+        "file": "fx/zzz.png",
+        "frames": 3,
+        "fps": 3,
+        "loop": true
+      }
+    }
+  }
+}
