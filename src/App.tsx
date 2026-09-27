@@ -6,6 +6,7 @@ import {
   addDays,
   buryPet,
   computePet,
+  emptySave,
   newId,
   stageName,
   toISO,
@@ -116,14 +117,18 @@ export default function App() {
       {DEBUG && (
         <div className="debug">
           <span>{today}</span>
+          {save.pet && state?.alive && (
+            <button onClick={() => update((s) => ({ ...s, bonusXp: (s.bonusXp ?? 0) + 100 }))}>+100 XP</button>
+          )}
           <button onClick={() => setDayOffset((d) => d + 1)}>+1 день</button>
           <button onClick={() => setTimeMode((m) => (m === 'auto' ? 'day' : m === 'day' ? 'night' : 'auto'))}>
             {timeMode === 'auto' ? 'Время: авто' : timeMode === 'day' ? 'Время: день' : 'Время: ночь'}
           </button>
           <button
             onClick={() => {
-              localStorage.clear()
-              location.reload()
+              // Пишем пустое сохранение поверх — иначе облачная копия Telegram вернёт старое.
+              persist({ ...emptySave(), updatedAt: Date.now() })
+              window.setTimeout(() => location.reload(), 1500)
             }}
           >
             Сброс

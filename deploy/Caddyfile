@@ -1,0 +1,10 @@
+# Caddy сам получает и продлевает HTTPS-сертификат.
+# sslip.io — бесплатный адрес по IP сервера; при покупке домена заменить на него.
+129-101-120-201.sslip.io {
+	root * /opt/habit-pet/dist
+	encode gzip
+	file_server
+	@assets path /assets/* /pet/*
+	header @assets Cache-Control "public, max-age=604800"
+	header /index.html Cache-Control "no-cache"
+}

@@ -1,0 +1,14 @@
+[Unit]
+Description=Habit pet Telegram bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+WorkingDirectory=/opt/habit-pet
+ExecStart=/opt/habit-pet/.venv/bin/python bot/main.py
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

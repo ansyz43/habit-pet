@@ -565,7 +565,10 @@ button.habit:active {
   position: fixed;
   bottom: calc(76px + env(safe-area-inset-bottom));
   right: 6px;
+  left: 6px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   gap: 4px;
   align-items: center;
   padding: 4px 6px;

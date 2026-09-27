@@ -31,6 +31,7 @@ export interface SaveData {
   habits: Habit[]
   log: Record<string, string[]> // дата → id выполненных привычек
   graves: Grave[]
+  bonusXp?: number // только для тестового режима (?debug)
 }
 
 export interface PetState {
@@ -111,7 +112,7 @@ export function computePet(save: SaveData, today: string): PetState | null {
   const pet = save.pet
   if (!pet) return null
 
-  let xp = 0
+  let xp = save.bonusXp ?? 0
   let satiety = RULES.startSatiety
   let mood = RULES.startMood
   let streak = 0
@@ -187,7 +188,7 @@ export function buryPet(save: SaveData, state: PetState): SaveData {
     stage: state.stage,
     xp: state.xp,
   }
-  return { ...save, pet: null, graves: [...save.graves, grave] }
+  return { ...save, pet: null, bonusXp: 0, graves: [...save.graves, grave] }
 }
 
 export function newId(): string {

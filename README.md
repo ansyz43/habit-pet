@@ -29,7 +29,10 @@ npm run dev
 
 ## Выкладка
 
-Каждый `git push` в `main` запускает GitHub Actions: тесты → сборка → GitHub Pages.
+Сайт и бот живут на сервере `129.101.120.201` в `/opt/habit-pet`: сайт отдаёт Caddy (HTTPS сам), бот — служба `habit-pet-bot`.
+Обновить: `git push`, затем на сервере `bash /opt/habit-pet/deploy/update.sh`.
+
+Адрес мини-аппа: https://129-101-120-201.sslip.io/ (тестовый режим — с `?debug` в конце).
 
 ## Бот
 
