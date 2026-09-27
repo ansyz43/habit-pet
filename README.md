@@ -40,7 +40,7 @@ npm run dev
 
 ```
 BOT_TOKEN=токен от @BotFather
-WEBAPP_URL=https://<адрес GitHub Pages>/
+WEBAPP_URL=https://129-101-120-201.sslip.io/  (с ?debug в конце — тестовый режим)
 ```
 
 Один раз настроить кнопку меню и описание: `python bot/setup_bot.py`.
