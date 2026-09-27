@@ -170,6 +170,10 @@ h2 {
   pointer-events: none;
 }
 
+.fx.zzz {
+  inset: -24px -40px auto auto !important;
+}
+
 .death .room {
   height: 330px;
 }
@@ -410,6 +414,10 @@ button.habit:active {
 }
 
 .onboarding .room,
+.fx.zzz {
+  inset: -24px -40px auto auto !important;
+}
+
 .death .room {
   margin-top: 4px;
 }

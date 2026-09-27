@@ -236,7 +236,7 @@ function Home({
               setShot(null)
             }}
           />
-          {night && !isEgg && <Sprite className="fx" set="fx" anim="zzz" />}
+          {night && !isEgg && <Sprite className="fx zzz" set="fx" anim="zzz" scale={1} />}
           {fx && <Sprite key={fx.id} className="fx" set="fx" anim={fx.name} onEnd={() => setFx(null)} />}
         </div>
       </div>
